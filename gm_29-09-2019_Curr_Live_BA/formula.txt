@@ -1,0 +1,19 @@
+amt= qty x rate
+taxamt= amt *tax%
+prod value= amt+ taxamt
+
+ok
+
+
+its ok
+
+no keep all this para manual feeeding for time being
+
+ok
+
+
+product value = qty * bill rate
+rest all fields are manual entr
+
+
+12100100

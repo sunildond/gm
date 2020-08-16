@@ -1,0 +1,768 @@
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\bin\x86\Release\gm.exe.config
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\bin\x86\Release\gm.exe
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\bin\x86\Release\gm.pdb
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\bin\x86\Release\Interop.MSDDS.dll
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\ResolveAssemblyReference.cache
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\Interop.MSDDS.dll
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\gm.csproj.ResolveComReference.cache
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GLENMARK.AboutBoxGlenmark.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.DeletedOrderDetail.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.filterAllSqlMerge.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.filterDeletedIOMReport.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.filterIOMReport.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.filterPendingReport.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.filterSTNDispatch.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmCopyOrder.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmDefineReport.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmDeletedOrder.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmDeliveryCompletedForceFully.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmIBISBillingThrughSTN.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmInvoiceDetailWithoutProduct.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmLiasoner.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmSQLServerBackup.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmPendingReasons.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmQueryExecuter.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmQueryListing.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmResetOMNO.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiecUploadDir.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.customermaster.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\gm.DispatchDetail.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.EditOrder.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmBatch.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmCategory.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GLENMARK.frmCountryMaster.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmCustomerCategory.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmCustomerMaster.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmCustomerType.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\gm.frmDirSAPInvoice.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\gm.frmDispatch.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GLENMARK.frmDSMZSMMaster.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmIBISBilling.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmInstitutionCategory.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmItemCategory.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmLogicMaster.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmLogin.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmOrder.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmOrderType.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmPDFRead.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmPendingOrder.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmProductMaster.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\gm.frmQueryGenerator.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\gm.frmReadyForBilling.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmRequestdoc.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiceUpload.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmStampingMaster.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GLENMARK.frmStateMaster.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmlocation.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\gm.frmSTNDispatch.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlenMark.frmStnUpload.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlenMark.frmStockUpload.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmTaxMaster.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmTaxTypeMaster.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmUserMaster.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\gm.frmUserModuleMaster.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmUserPermission.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.frmZoneMaster.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.IBISDirectBilling.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.MdiForm.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.Order.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.Orderdetail.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GlanMark.order_authrosisation.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\gm.Properties.Resources.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\GLENMARK.frmSubInstitutionCategory.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\gm.ReadyForBilling.resources
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\gm.csproj.GenerateResource.Cache
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\gm.exe
+D:\MuktaCinama\gm\gm_24-10-2015_Curr_Live\obj\x86\Release\gm.pdb
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\bin\x86\Release\gm.exe.config
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\Interop.MSDDS.dll
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\gm.csproj.ResolveComReference.cache
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\gm.exe
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\gm.pdb
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\bin\x86\Release\gm.exe
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\bin\x86\Release\gm.pdb
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\bin\x86\Release\Interop.MSDDS.dll
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\ResolveAssemblyReference.cache
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GLENMARK.AboutBoxGlenmark.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.DeletedOrderDetail.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.filterAllSqlMerge.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.filterDeletedIOMReport.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.filterIOMReport.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.filterPendingReport.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.filterSTNDispatch.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmCopyOrder.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmDefineReport.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmDeletedOrder.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmDeliveryCompletedForceFully.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmIBISBillingThrughSTN.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmInvoiceDetailWithoutProduct.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmLiasoner.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmSQLServerBackup.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmPendingReasons.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmQueryExecuter.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmQueryListing.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmResetOMNO.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiecUploadDir.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.customermaster.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\gm.DispatchDetail.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.EditOrder.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmBatch.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmCategory.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GLENMARK.frmCountryMaster.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmCustomerCategory.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmCustomerMaster.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmCustomerType.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\gm.frmDirSAPInvoice.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\gm.frmDispatch.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GLENMARK.frmDSMZSMMaster.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmIBISBilling.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmInstitutionCategory.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmItemCategory.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmLogicMaster.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmLogin.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmOrder.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmOrderType.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmPDFRead.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmPendingOrder.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmProductMaster.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\gm.frmQueryGenerator.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\gm.frmReadyForBilling.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmRequestdoc.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiceUpload.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmStampingMaster.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GLENMARK.frmStateMaster.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmlocation.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\gm.frmSTNDispatch.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlenMark.frmStnUpload.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlenMark.frmStockUpload.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmTaxMaster.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmTaxTypeMaster.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmUserMaster.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\gm.frmUserModuleMaster.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmUserPermission.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmZoneMaster.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.IBISDirectBilling.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.MdiForm.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.Order.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.Orderdetail.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GlanMark.order_authrosisation.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\gm.Properties.Resources.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\GLENMARK.frmSubInstitutionCategory.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\gm.ReadyForBilling.resources
+D:\MuktaCinama\gm\gm_04-01-2016_Curr_Live\obj\x86\Release\gm.csproj.GenerateResource.Cache
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\bin\x86\Release\gm.exe.config
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\Interop.MSDDS.dll
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\gm.csproj.ResolveComReference.cache
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\gm.exe
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\gm.pdb
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\bin\x86\Release\gm.exe
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\bin\x86\Release\gm.pdb
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\bin\x86\Release\Interop.MSDDS.dll
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\ResolveAssemblyReference.cache
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GLENMARK.AboutBoxGlenmark.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.DeletedOrderDetail.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.filterAllSqlMerge.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.filterDeletedIOMReport.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.filterIOMReport.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.filterPendingReport.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.filterSTNDispatch.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmCopyOrder.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmDefineReport.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmDeletedOrder.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmDeliveryCompletedForceFully.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmIBISBillingThrughSTN.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmInvoiceDetailWithoutProduct.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmLiasoner.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmSQLServerBackup.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmPendingReasons.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmQueryExecuter.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmQueryListing.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmResetOMNO.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiecUploadDir.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.customermaster.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\gm.DispatchDetail.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.EditOrder.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmBatch.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmCategory.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GLENMARK.frmCountryMaster.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmCustomerCategory.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmCustomerMaster.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmCustomerType.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\gm.frmDirSAPInvoice.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\gm.frmDispatch.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GLENMARK.frmDSMZSMMaster.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmIBISBilling.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmInstitutionCategory.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmItemCategory.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmLogicMaster.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmLogin.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmOrder.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmOrderType.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmPDFRead.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmPendingOrder.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmProductMaster.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\gm.frmQueryGenerator.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\gm.frmReadyForBilling.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmRequestdoc.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiceUpload.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmStampingMaster.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GLENMARK.frmStateMaster.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmlocation.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\gm.frmSTNDispatch.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlenMark.frmStnUpload.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlenMark.frmStockUpload.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmTaxMaster.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmTaxTypeMaster.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmUserMaster.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\gm.frmUserModuleMaster.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmUserPermission.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.frmZoneMaster.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.IBISDirectBilling.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.MdiForm.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.Order.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.Orderdetail.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GlanMark.order_authrosisation.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\gm.Properties.Resources.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\GLENMARK.frmSubInstitutionCategory.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\gm.ReadyForBilling.resources
+D:\MuktaCinama\gm\gm_19-01-2016_Curr_Live\obj\x86\Release\gm.csproj.GenerateResource.Cache
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\bin\x86\Release\gm.exe.config
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\Interop.MSDDS.dll
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\gm.csproj.ResolveComReference.cache
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\gm.exe
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\gm.pdb
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\bin\x86\Release\gm.exe
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\bin\x86\Release\gm.pdb
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\bin\x86\Release\Interop.MSDDS.dll
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\ResolveAssemblyReference.cache
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GLENMARK.AboutBoxGlenmark.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.DeletedOrderDetail.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.filterAllSqlMerge.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.filterDeletedIOMReport.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.filterIOMReport.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.filterPendingReport.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.filterSTNDispatch.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmCopyOrder.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmDefineReport.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmDeletedOrder.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmDeliveryCompletedForceFully.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmIBISBillingThrughSTN.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmInvoiceDetailWithoutProduct.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmLiasoner.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmSQLServerBackup.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmPendingReasons.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmQueryExecuter.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmQueryListing.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmResetOMNO.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiecUploadDir.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.customermaster.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\gm.DispatchDetail.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.EditOrder.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmBatch.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmCategory.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GLENMARK.frmCountryMaster.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmCustomerCategory.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmCustomerMaster.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmCustomerType.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\gm.frmDirSAPInvoice.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\gm.frmDispatch.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GLENMARK.frmDSMZSMMaster.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmIBISBilling.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmInstitutionCategory.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmItemCategory.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmLogicMaster.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmLogin.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmOrder.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmOrderType.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmPDFRead.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmPendingOrder.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmProductMaster.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\gm.frmQueryGenerator.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\gm.frmReadyForBilling.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmRequestdoc.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiceUpload.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmStampingMaster.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GLENMARK.frmStateMaster.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmlocation.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\gm.frmSTNDispatch.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlenMark.frmStnUpload.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlenMark.frmStockUpload.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmTaxMaster.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmTaxTypeMaster.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmUserMaster.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\gm.frmUserModuleMaster.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmUserPermission.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.frmZoneMaster.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.IBISDirectBilling.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.MdiForm.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.Order.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.Orderdetail.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GlanMark.order_authrosisation.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\gm.Properties.Resources.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\GLENMARK.frmSubInstitutionCategory.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\gm.ReadyForBilling.resources
+D:\MuktaCinama\gm\gm_05-02-2016_Curr_Live\obj\x86\Release\gm.csproj.GenerateResource.Cache
+D:\MuktaCinama\gm\gm_20-02-2016_Curr_Live\bin\x86\Release\gm.exe.config
+D:\MuktaCinama\gm\gm_20-02-2016_Curr_Live\obj\x86\Release\Interop.MSDDS.dll
+D:\MuktaCinama\gm\gm_20-02-2016_Curr_Live\obj\x86\Release\gm.csproj.ResolveComReference.cache
+D:\MuktaCinama\gm\gm_20-02-2016_Curr_Live\obj\x86\Release\gm.exe
+D:\MuktaCinama\gm\gm_20-02-2016_Curr_Live\obj\x86\Release\gm.pdb
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\bin\x86\Release\gm.exe.config
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\bin\x86\Release\gm.exe
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\bin\x86\Release\gm.pdb
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\bin\x86\Release\Interop.MSDDS.dll
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\ResolveAssemblyReference.cache
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\Interop.MSDDS.dll
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\gm.csproj.ResolveComReference.cache
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GLENMARK.AboutBoxGlenmark.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.DeletedOrderDetail.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.filterAllSqlMerge.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.filterDeletedIOMReport.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.filterIOMReport.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.filterPendingReport.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.filterSTNDispatch.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmCopyOrder.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmDefineReport.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmDeletedOrder.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmDeliveryCompletedForceFully.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmIBISBillingThrughSTN.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmInvoiceDetailWithoutProduct.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmLiasoner.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmSQLServerBackup.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmPendingReasons.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmQueryExecuter.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmQueryListing.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmResetOMNO.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiecUploadDir.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.customermaster.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\gm.DispatchDetail.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.EditOrder.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmBatch.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmCategory.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GLENMARK.frmCountryMaster.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmCustomerCategory.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmCustomerMaster.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmCustomerType.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\gm.frmDirSAPInvoice.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\gm.frmDispatch.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GLENMARK.frmDSMZSMMaster.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmIBISBilling.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmInstitutionCategory.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmItemCategory.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmLogicMaster.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmLogin.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmOrder.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmOrderType.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmPDFRead.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmPendingOrder.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmProductMaster.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\gm.frmQueryGenerator.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\gm.frmReadyForBilling.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmRequestdoc.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiceUpload.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmStampingMaster.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GLENMARK.frmStateMaster.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmlocation.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\gm.frmSTNDispatch.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlenMark.frmStnUpload.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlenMark.frmStockUpload.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmTaxMaster.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmTaxTypeMaster.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmUserMaster.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\gm.frmUserModuleMaster.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmUserPermission.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.frmZoneMaster.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.IBISDirectBilling.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.MdiForm.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.Order.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.Orderdetail.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GlanMark.order_authrosisation.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\gm.Properties.Resources.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\GLENMARK.frmSubInstitutionCategory.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\gm.ReadyForBilling.resources
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\gm.csproj.GenerateResource.Cache
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\gm.exe
+D:\MuktaCinama\gm\gm_05-04-2016_Curr_Live\obj\x86\Release\gm.pdb
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\bin\x86\Release\gm.exe.config
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\bin\x86\Release\gm.exe
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\bin\x86\Release\gm.pdb
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\bin\x86\Release\Interop.MSDDS.dll
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\ResolveAssemblyReference.cache
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\Interop.MSDDS.dll
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\gm.csproj.ResolveComReference.cache
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GLENMARK.AboutBoxGlenmark.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.DeletedOrderDetail.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.filterAllSqlMerge.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.filterDeletedIOMReport.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.filterIOMReport.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.filterPendingReport.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.filterSTNDispatch.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmCopyOrder.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmDefineReport.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmDeletedOrder.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmDeliveryCompletedForceFully.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmIBISBillingThrughSTN.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmInvoiceDetailWithoutProduct.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmLiasoner.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmSQLServerBackup.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmPendingReasons.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmQueryExecuter.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmQueryListing.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmResetOMNO.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmSapInvoiecUploadDir.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.customermaster.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\gm.DispatchDetail.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.EditOrder.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmBatch.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmCategory.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GLENMARK.frmCountryMaster.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmCustomerCategory.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmCustomerMaster.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmCustomerType.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\gm.frmDirSAPInvoice.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\gm.frmDispatch.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GLENMARK.frmDSMZSMMaster.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmIBISBilling.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmInstitutionCategory.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmItemCategory.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmLogicMaster.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmLogin.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmOrder.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmOrderType.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmPDFRead.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmPendingOrder.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmProductMaster.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\gm.frmQueryGenerator.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\gm.frmReadyForBilling.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmRequestdoc.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmSapInvoiceUpload.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmStampingMaster.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GLENMARK.frmStateMaster.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmlocation.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\gm.frmSTNDispatch.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlenMark.frmStnUpload.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlenMark.frmStockUpload.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmTaxMaster.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmTaxTypeMaster.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmUserMaster.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\gm.frmUserModuleMaster.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmUserPermission.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmZoneMaster.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.IBISDirectBilling.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.MdiForm.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.Order.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.Orderdetail.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GlanMark.order_authrosisation.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\gm.Properties.Resources.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\GLENMARK.frmSubInstitutionCategory.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\gm.ReadyForBilling.resources
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\gm.csproj.GenerateResource.Cache
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\gm.exe
+D:\gm\GM Updated\gm_03-08-2016_Curr_Live_11\obj\x86\Release\gm.pdb
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\bin\x86\Release\gm.exe.config
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\Interop.MSDDS.dll
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\gm.csproj.ResolveComReference.cache
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\gm.exe
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\gm.pdb
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\bin\x86\Release\gm.exe
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\bin\x86\Release\gm.pdb
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\bin\x86\Release\Interop.MSDDS.dll
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\ResolveAssemblyReference.cache
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GLENMARK.AboutBoxGlenmark.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.DeletedOrderDetail.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.filterAllSqlMerge.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.filterDeletedIOMReport.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.filterIOMReport.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.filterPendingReport.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.filterSTNDispatch.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmCopyOrder.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmDefineReport.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmDeletedOrder.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmDeliveryCompletedForceFully.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmIBISBillingThrughSTN.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmInvoiceDetailWithoutProduct.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmLiasoner.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmSQLServerBackup.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmPendingReasons.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmQueryExecuter.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmQueryListing.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmResetOMNO.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmSapInvoiecUploadDir.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.customermaster.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\gm.DispatchDetail.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.EditOrder.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmBatch.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmCategory.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GLENMARK.frmCountryMaster.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmCustomerCategory.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmCustomerMaster.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmCustomerType.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\gm.frmDirSAPInvoice.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\gm.frmDispatch.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GLENMARK.frmDSMZSMMaster.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmIBISBilling.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmInstitutionCategory.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmItemCategory.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmLogicMaster.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmLogin.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmOrder.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmOrderType.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmPDFRead.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmPendingOrder.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmProductMaster.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\gm.frmQueryGenerator.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\gm.frmReadyForBilling.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmRequestdoc.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmSapInvoiceUpload.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmStampingMaster.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GLENMARK.frmStateMaster.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmlocation.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\gm.frmSTNDispatch.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlenMark.frmStnUpload.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlenMark.frmStockUpload.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmTaxMaster.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmTaxTypeMaster.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmUserMaster.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\gm.frmUserModuleMaster.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmUserPermission.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.frmZoneMaster.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.IBISDirectBilling.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.MdiForm.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.Order.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.Orderdetail.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GlanMark.order_authrosisation.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\gm.Properties.Resources.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\GLENMARK.frmSubInstitutionCategory.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\gm.ReadyForBilling.resources
+D:\gm\GM Updated\gm_05-09-2016_Curr_Live_11\obj\x86\Release\gm.csproj.GenerateResource.Cache
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\bin\x86\Release\gm.exe.config
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\Interop.MSDDS.dll
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\gm.csproj.ResolveComReference.cache
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\gm.exe
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\gm.pdb
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\bin\x86\Release\gm.exe
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\bin\x86\Release\gm.pdb
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\bin\x86\Release\Interop.MSDDS.dll
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\ResolveAssemblyReference.cache
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GLENMARK.AboutBoxGlenmark.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.DeletedOrderDetail.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.filterAllSqlMerge.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.filterDeletedIOMReport.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.filterIOMReport.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.filterPendingReport.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.filterSTNDispatch.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmCopyOrder.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmDefineReport.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmDeletedOrder.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmDeliveryCompletedForceFully.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmIBISBillingThrughSTN.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmInvoiceDetailWithoutProduct.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmLiasoner.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmSQLServerBackup.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmPendingReasons.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmQueryExecuter.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmQueryListing.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmResetOMNO.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiecUploadDir.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.customermaster.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\gm.DispatchDetail.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.EditOrder.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmBatch.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmCategory.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GLENMARK.frmCountryMaster.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmCustomerCategory.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmCustomerMaster.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmCustomerType.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\gm.frmDirSAPInvoice.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\gm.frmDispatch.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GLENMARK.frmDSMZSMMaster.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmIBISBilling.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmInstitutionCategory.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmItemCategory.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmLogicMaster.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmLogin.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmOrder.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmOrderType.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmPDFRead.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmPendingOrder.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmProductMaster.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\gm.frmQueryGenerator.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\gm.frmReadyForBilling.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmRequestdoc.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiceUpload.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmStampingMaster.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GLENMARK.frmStateMaster.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmlocation.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\gm.frmSTNDispatch.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlenMark.frmStnUpload.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlenMark.frmStockUpload.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmTaxMaster.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmTaxTypeMaster.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmUserMaster.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\gm.frmUserModuleMaster.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmUserPermission.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.frmZoneMaster.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.IBISDirectBilling.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.MdiForm.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.Order.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.Orderdetail.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GlanMark.order_authrosisation.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\gm.Properties.Resources.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GLENMARK.frmSubInstitutionCategory.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\gm.ReadyForBilling.resources
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\gm.csproj.GenerateResource.Cache
+D:\gm\GM Updated\gm_28-10-2017_Curr_Live\obj\x86\Release\GLENMARK.frmHSNMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\bin\x86\Release\gm.exe.config
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\Interop.MSDDS.dll
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\gm.csproj.ResolveComReference.cache
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\gm.exe
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\gm.pdb
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\bin\x86\Release\gm.exe
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\bin\x86\Release\gm.pdb
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\bin\x86\Release\Interop.MSDDS.dll
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\ResolveAssemblyReference.cache
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GLENMARK.AboutBoxGlenmark.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.DeletedOrderDetail.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.filterAllSqlMerge.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.filterDeletedIOMReport.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.filterIOMReport.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.filterPendingReport.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.filterSTNDispatch.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmCopyOrder.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmDefineReport.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmDeletedOrder.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmDeliveryCompletedForceFully.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GLENMARK.frmHSNMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmIBISBillingThrughSTN.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmInvoiceDetailWithoutProduct.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmLiasoner.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmSQLServerBackup.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmPendingReasons.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmQueryExecuter.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmQueryListing.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmResetOMNO.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiecUploadDir.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.customermaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\gm.DispatchDetail.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.EditOrder.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmBatch.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmCategory.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GLENMARK.frmCountryMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmCustomerCategory.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmCustomerMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmCustomerType.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\gm.frmDirSAPInvoice.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\gm.frmDispatch.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GLENMARK.frmDSMZSMMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmIBISBilling.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmInstitutionCategory.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmItemCategory.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmLogicMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmLogin.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmOrder.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmOrderType.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmPDFRead.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmPendingOrder.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmProductMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\gm.frmQueryGenerator.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\gm.frmReadyForBilling.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmRequestdoc.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiceUpload.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmStampingMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GLENMARK.frmStateMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmlocation.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\gm.frmSTNDispatch.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlenMark.frmStnUpload.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlenMark.frmStockUpload.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmTaxMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmTaxTypeMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmUserMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\gm.frmUserModuleMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmUserPermission.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmZoneMaster.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.IBISDirectBilling.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.MdiForm.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.Order.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.Orderdetail.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GlanMark.order_authrosisation.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\gm.Properties.Resources.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\GLENMARK.frmSubInstitutionCategory.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\gm.ReadyForBilling.resources
+D:\gm\GM Updated\gm_12-01-2018_Curr_Live\obj\x86\Release\gm.csproj.GenerateResource.Cache
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\bin\x86\Release\gm.exe.config
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\Interop.MSDDS.dll
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\gm.csproj.ResolveComReference.cache
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\gm.exe
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\gm.pdb
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\bin\x86\Release\gm.exe
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\bin\x86\Release\gm.pdb
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\bin\x86\Release\Interop.MSDDS.dll
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\ResolveAssemblyReference.cache
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GLENMARK.AboutBoxGlenmark.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.DeletedOrderDetail.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.filterAllSqlMerge.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.filterDeletedIOMReport.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.filterIOMReport.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.filterPendingReport.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.filterSTNDispatch.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmCopyOrder.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmDefineReport.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmDeletedOrder.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmDeliveryCompletedForceFully.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GLENMARK.frmHSNMaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmIBISBillingThrughSTN.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmInvoiceDetailWithoutProduct.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmLiasoner.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmSQLServerBackup.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmPendingReasons.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmQueryExecuter.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmQueryListing.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmResetOMNO.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiecUploadDir.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.customermaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\gm.DispatchDetail.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.EditOrder.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmBatch.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmCategory.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GLENMARK.frmCountryMaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmCustomerCategory.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmCustomerMaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmCustomerType.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\gm.frmDirSAPInvoice.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\gm.frmDispatch.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GLENMARK.frmDSMZSMMaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmIBISBilling.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmInstitutionCategory.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmItemCategory.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmLogicMaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmLogin.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmOrder.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmOrderType.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmPDFRead.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmPendingOrder.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmProductMaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\gm.frmQueryGenerator.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\gm.frmReadyForBilling.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmRequestdoc.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmSapInvoiceUpload.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmStampingMaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GLENMARK.frmStateMaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmlocation.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\gm.frmSTNDispatch.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlenMark.frmStnUpload.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlenMark.frmStockUpload.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmTaxMaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmTaxTypeMaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmUserMaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\gm.frmUserModuleMaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmUserPermission.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.frmZoneMaster.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.IBISDirectBilling.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.MdiForm.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.Order.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.Orderdetail.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GlanMark.order_authrosisation.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\gm.Properties.Resources.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\GLENMARK.frmSubInstitutionCategory.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\gm.ReadyForBilling.resources
+D:\gm\GM Updated\gm_22-01-2018_Curr_Live\obj\x86\Release\gm.csproj.GenerateResource.Cache

@@ -1,0 +1,109 @@
+
+select * from (
+select OH.IOMNo , oh.IOMDate,oh.PartyCode ,OH.PartyName,
+(case when STNUPD.MaterialCode is not null then (select OI.TotProductValue from OrderItem OI where OI.IOMNo = STNUPD.IOMNO and OI.ProductCode = STNUPD.MaterialCode) end) TotProductValue,
+(case when STNUPD.Plnt is not null then (select DispatchThru from LocationMaster where STNUPD.Plnt = LocationMaster.LocationCode) end) STNLocation,
+(case when OH.LocationCode is not null then (select DispatchThru from LocationMaster where OH.LocationCode = LocationMaster.LocationCode) end) LocationCode,
+STNUPD.PartyCode as STNDispThrough, 
+OH.DispThrough ,OH.Remark,STNUPD.MaterialCode , STNUPD.Description AS Productname ,
+STNUPD.Batch ,STNUPD.DeliveryQuantity AS Quantity, STNUPD.MfgDate as MfgDate, STNUPD.ExpDate as ExpDate, STNDISP.HORemarks as STNRemark, STNUPD.Delivery AS STNNO, 
+STNUPD.BillingDocument as ProfInvoice, STNUPD.ActualGoodsMovement as STNDate,
+STNDISP.InvTransporter AS STNTRANSPORTER, STNDISP.InvLRNo  AS STNLRNO,
+STNDISP.InvDispLRdate AS STNDISPLRDATE, STNDISP.InvDispDelDate AS STNDISPELDATE,
+INVOICE.HORemarks as InvoiceDispatchRemark, INVOICE.BillingDocument AS INVOICE, INVOICE.BillingDate as InvoiceDate, INVOICE.InvTransporter, 
+INVOICE.InvLRNo, INVOICE.InvDispLRdate, INVOICE.InvDispDelDate,
+(case when OH.StampingID is not null then (select Name from StampingMaster where OH.StampingID = StampingMaster.StampingId) end) StampingName,
+OH.MRP,INVOICE.Cases, INVOICE.TentativeDel,
+OH.BillingAddress,OH.DeliveryAddress,OH.OrderDeliveryDate
+ ,STNDISP.AuthDate as STNAuthDate, INVOICE.AuthDate as INVAuthDate
+ from STNInvoice_Dispatch AS STNDISP, OrderHeader as OH, STNUpload AS STNUPD, Invoice_Dispatch as INVOICE
+ where  STNDISP.IOMNO =OH.IOMNo    AND STNDISP.Delivery = STNUPD.Delivery  
+ AND STNDISP.IOMNO =INVOICE.IOMNO and STNDISP.Delivery =INVOICE.Delivery 
+ and INVOICE.BillingDocument in ( select BillingDocument from SAPInvoiceUpload ) 
+ 
+union all
+select OH.IOMNo , oh.IOMDate,oh.PartyCode ,OH.PartyName,
+(case when STNUPD.MaterialCode is not null then (select OI.TotProductValue from OrderItem OI where OI.IOMNo = STNUPD.IOMNO and OI.ProductCode = STNUPD.MaterialCode) end) TotProductValue,
+(case when STNUPD.Plnt is not null then (select DispatchThru from LocationMaster where STNUPD.Plnt = LocationMaster.LocationCode) end) STNLocation,
+(case when OH.LocationCode is not null then (select DispatchThru from LocationMaster where OH.LocationCode = LocationMaster.LocationCode) end) LocationCode,
+STNUPD.PartyCode as STNDispThrough, 
+OH.DispThrough ,OH.Remark,STNUPD.MaterialCode ,STNUPD.Description AS Productname ,
+STNUPD.Batch ,STNUPD.DeliveryQuantity AS Quantity, STNUPD.MfgDate as MfgDate, STNUPD.ExpDate as ExpDate, STNDISP.HORemarks as STNRemark, STNUPD.Delivery AS STNNO,
+STNUPD.BillingDocument as ProfInvoice, STNUPD.ActualGoodsMovement as STNDate,
+STNDISP.InvTransporter AS STNTRANSPORTER, STNDISP.InvLRNo  AS STNLRNO,
+STNDISP.InvDispLRdate AS STNDISPLRDATE, STNDISP.InvDispDelDate AS STNDISPELDATE,
+INVOICE.HORemarks as InvoiceDispatchRemark,INVOICE.BillingDocument AS INVOICE,INVOICE.BillingDate as InvoiceDate,INVOICE.InvTransporter,
+INVOICE.InvLRNo, INVOICE.InvDispLRdate, INVOICE.InvDispDelDate,
+(case when OH.StampingID is not null then (select Name from StampingMaster where OH.StampingID = StampingMaster.StampingId) end) StampingName,
+OH.MRP,INVOICE.Cases, INVOICE.TentativeDel,
+OH.BillingAddress,OH.DeliveryAddress,OH.OrderDeliveryDate 
+,STNDISP.AuthDate as STNAuthDate, INVOICE.AuthDate as INVAuthDate
+ from STNInvoice_Dispatch AS STNDISP, OrderHeader as OH, STNUpload AS STNUPD, Invoice_Dispatch as INVOICE
+ where  STNDISP.IOMNO =OH.IOMNo 
+  AND STNDISP.Delivery = STNUPD.Delivery 
+  and STNDISP.IOMNO =INVOICE.IOMNO and STNDISP.Delivery =INVOICE.Delivery 
+  and INVOICE.BillingDocument in (select DocumentNumber  from IBISBillingUpdate)
+   
+ UNION ALL    
+
+select OH.IOMNo , oh.IOMDate,oh.PartyCode ,OH.PartyName, 
+(case when SAPDIR.MaterialCode is not null then (select OI.TotProductValue from OrderItem OI where OI.IOMNo = SAPDIR.IOMNO and OI.ProductCode = SAPDIR.MaterialCode) end) TotProductValue,
+'' as STNLocation,
+(case when OH.LocationCode is not null then (select DispatchThru from LocationMaster where OH.LocationCode = LocationMaster.LocationCode) end) LocationCode,
+'' as STNDispThrough, OH.DispThrough ,OH.Remark,SAPDIR.MaterialCode ,sapdir.Description  AS Productname, sapdir.Batch , sapdir.BilledQuantity AS Quantity , 
+'' as MfgDate, '' as ExpDate,
+'' as STNRemark,'' AS STNNO,
+'' as ProfInvoice, '' as STNDate,
+'' AS STNTRANSPORTER, '' AS STNLRNO,
+' ' AS STNDISPLRDATE, '' AS STNDISPELDATE,
+INVOICE.HORemarks as InvoiceDispatchRemark,INVOICE.BillingDocument AS INVOICE,INVOICE.BillingDate as InvoiceDate,INVOICE.InvTransporter,
+INVOICE.InvLRNo, INVOICE.InvDispLRdate, INVOICE.InvDispDelDate,
+(case when OH.StampingID is not null then (select Name from StampingMaster where OH.StampingID = StampingMaster.StampingId) end) StampingName,
+OH.MRP,INVOICE.Cases, INVOICE.TentativeDel,
+OH.BillingAddress,OH.DeliveryAddress,OH.OrderDeliveryDate   
+,'' as STNAuthDate, INVOICE.AuthDate as INVAuthDate
+FROM invoice_Dispatch AS INVOICE, OrderHeader as OH , DirSAPInvoiceUpload AS SAPDIR  
+ WHERE INVOICE.IOMNO =OH.IOMNo  AND SAPDIR.IOMNo =INVOICE.IOMNO AND INVOICE.BillingDocument = SAPDIR.BillingDocument 
+ 
+ UNION ALL
+select OH.IOMNo , oh.IOMDate,oh.PartyCode ,OH.PartyName, 
+(case when IBISDIR.MaterialCode is not null then (select OI.TotProductValue from OrderItem OI where OI.IOMNo = IBISDIR.IOMNO and OI.ProductCode = IBISDIR.MaterialCode) end) TotProductValue,
+'' as STNLocation,
+(case when OH.LocationCode is not null then (select DispatchThru from LocationMaster where OH.LocationCode = LocationMaster.LocationCode) end) LocationCode,
+'' as STNDispThrough, OH.DispThrough ,OH.Remark,IBISDIR.MaterialCode,IBISDIR.Productname, IBISDIR.Batch, IBISDIR.BilledQuantity AS Quantity , 
+'' as MfgDate, '' as ExpDate,
+'' as STNRemark,'' AS STNNO,
+'' as ProfInvoice, '' as STNDate,
+'' AS STNTRANSPORTER, '' AS STNLRNO,
+' ' AS STNDISPLRDATE, '' AS STNDISPELDATE,
+INVOICE.HORemarks as InvoiceDispatchRemark,INVOICE.BillingDocument AS INVOICE,INVOICE.BillingDate as InvoiceDate,INVOICE.InvTransporter,
+INVOICE.InvLRNo, INVOICE.InvDispLRdate, INVOICE.InvDispDelDate,
+(case when OH.StampingID is not null then (select Name from StampingMaster where OH.StampingID = StampingMaster.StampingId) end) StampingName,
+OH.MRP,INVOICE.Cases, INVOICE.TentativeDel,
+OH.BillingAddress,OH.DeliveryAddress,OH.OrderDeliveryDate  
+ ,'' as STNAuthDate, INVOICE.AuthDate as INVAuthDate
+ FROM invoice_Dispatch AS INVOICE, OrderHeader as OH , IBISDirectBillingUpdate AS  IBISDIR
+ WHERE INVOICE.IOMNO =OH.IOMNo  AND IBISDIR.IOMNo =INVOICE.IOMNO AND INVOICE.BillingDocument = IBISDIR.DocumentNumber  
+ 
+ UNION ALL
+select OH.IOMNo , oh.IOMDate,oh.PartyCode ,OH.PartyName,
+(case when STNUPD.MaterialCode is not null then (select OI.TotProductValue from OrderItem OI where OI.IOMNo = STNUPD.IOMNO and OI.ProductCode = STNUPD.MaterialCode) end) TotProductValue,
+(case when STNUPD.Plnt is not null then (select DispatchThru from LocationMaster where STNUPD.Plnt = LocationMaster.LocationCode) end) STNLocation,
+(case when OH.LocationCode is not null then (select DispatchThru from LocationMaster where OH.LocationCode = LocationMaster.LocationCode) end) LocationCode,
+STNUPD.PartyCode as STNDispThrough, 
+OH.DispThrough ,OH.Remark,STNUPD.MaterialCode , STNUPD.Description AS Productname ,
+STNUPD.Batch ,STNUPD.DeliveryQuantity AS Quantity, STNUPD.MfgDate as MfgDate, STNUPD.ExpDate as ExpDate, STNDISP.HORemarks as STNRemark, STNUPD.Delivery AS STNNO,
+STNUPD.BillingDocument as ProfInvoice, STNUPD.ActualGoodsMovement as STNDate,
+STNDISP.InvTransporter AS STNTRANSPORTER, STNDISP.InvLRNo  AS STNLRNO,
+STNDISP.InvDispLRdate AS STNDISPLRDATE, STNDISP.InvDispDelDate AS STNDISPELDATE,
+'' as InvoiceDispatchRemark,'' as INVOICE, '' as InvoiceDate, '' as  nvTransporter,
+'' as InvLRNo, '' as InvDispLRdate, '' as InvDispDelDate,
+(case when OH.StampingID is not null then (select Name from StampingMaster where OH.StampingID = StampingMaster.StampingId) end) StampingName,
+OH.MRP,'' as Cases, '' as TentativeDel,
+OH.BillingAddress,OH.DeliveryAddress,OH.OrderDeliveryDate
+ ,STNDISP.AuthDate as STNAuthDate, '' as INVAuthDate
+ from STNInvoice_Dispatch AS STNDISP, OrderHeader as OH, STNUpload AS STNUPD
+ where  STNDISP.IOMNO =OH.IOMNo  AND STNDISP.Delivery = STNUPD.Delivery   
+  and stndisp.Delivery not in ( select iomno from SAPInvoiceUpload ) and STNDISP.Delivery  not in ( select IOMNo from IBISBillingUpdate )
+  
+  ) as a where a.IOMNo = '17100003'

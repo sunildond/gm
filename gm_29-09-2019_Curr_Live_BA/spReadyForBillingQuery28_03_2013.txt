@@ -1,0 +1,42 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author Name:	<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+-- exec spReadyForBilling
+ALTER PROCEDURE [dbo].[spReadyForBilling]
+	-- Add the parameters for the stored procedure here
+	
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+	drop table tmpReadyForBilling;
+	
+	select * into tmpReadyForBilling from (
+	SELECT BatchAllocation.IOMNO,OrderHeader.IOMDate,OrderHeader.PartyCode,OrderHeader.PartyName, OrderHeader.DispThrough, OrderHeader.InstPONo,OrderHeader.InstPODate,
+	OrderItem.Remark,BatchAllocation.WareHouseCode,BatchAllocation.StorageCode, BatchAllocation.ProductCode  ,OrderItem.ProductName,BatchAllocation.BatchNo,BatchAllocation.QTY,
+	OrderItem.BillingRate,OrderItem.MRP as MRPRate, OrderItem.EffTax,OrderItem.ProdValue,
+	BatchAllocation.MFGDate, BatchAllocation.ExpiryDate,BatchAllocation.SelfLifePercentage, OrderHeader.MRP,StampingMaster.Name as Stamping, 
+	(OrderItem.MRP * BatchAllocation.QTY) as MRPValue  FROM BatchAllocation,OrderHeader,OrderItem,StampingMaster 
+	WHERE   BatchAllocation.IOMNO=OrderHeader.IOMNo      and OrderHeader.StampingID=StampingMaster.StampingId 
+	and BatchAllocation.AlisCode=OrderItem.AlisCode and OrderItem.IOMNo=OrderHeader.IOMNo
+	and CONVERT(varchar, BatchAllocation.IOMNO)+BatchAllocation.ProductCode  
+	not in ( select CONVERT(varchar,iomno)+MaterialCode from stnupload  where OrdUpdated =1 
+	Union all   
+	select CONVERT(varchar,iomno)+MaterialCode from SAPInvoiceUpload  where OrdUpdated =1  
+	Union all   
+	select CONVERT(varchar,iomno)+MaterialCode  from DirSAPInvoiceUpload  where OrdUpdated =1  
+	Union all  
+	select CONVERT(varchar,iomno)+MaterialCode from IBISBillingUpdate  where OrdUpdated =1
+	Union all   select CONVERT(varchar,iomno)+MaterialCode 
+	from  IBISDirectBillingUpdate  where OrdUpdated =1)) as tmpRFB
+    
+END
+GO

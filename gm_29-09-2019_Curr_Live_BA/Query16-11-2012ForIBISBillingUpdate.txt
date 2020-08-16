@@ -1,0 +1,70 @@
+
+select oh.IOMNo , oh.IOMDate, oh.PartyCode, oh.PartyName , oh.DSM_ZSM ,oi.ProductName ,oi.Quantity  as OrderQuantity, 
+STN.Plnt as FromLocation,STN.Delivery , STN.PartyCode as ToLocation, STN.Delivery as STNDeliveryNo,STN.BillingDocument as ProInv,STN.Description ,
+STN.DeliveryQuantity as STNQuantity,ID.InvTransporter as STNTransporter,
+ID.InvLRNo as STNLRNo,ID.InvDispLRdate ,ID.Date ,ID.Cases ,ID.TentativeDel ,ID.AuthDate ,ID.HORemarks ,SAPUPD.Plnt as INVPlnt,SAPUPD.BillingDocument  as InvoiceNo,
+SAPUPD.BillingDate  as INVDate, --SAPUPD.BilledQuantity  as INVQuantity,
+oh.StampingID ,oh.MRP    
+ from OrderHeader  oh,OrderItem  oi, Invoice_Dispatch as ID,STNUpload AS STN ,SAPInvoiceUpload AS SAPUPD
+where oh.IOMNo =oi.IOMNo and oi.IOMNo=STN.IOMNO and oi.AlisCode=STN.AlisCode and STN.IOMNO =ID.IOMNO and SAPUPD.STNIOMNo =oh.IOMNo 
+AND STN.Delivery =SAPUPD.IOMNo AND STN.AlisCode =SAPUPD.AlisCode AND ID.Delivery!=0 
+and STN.MaterialCode =SAPUPD.MaterialCode and ID.Delivery = SAPUPD.IOMNo and SAPUPD.STNIOMNo =12100720
+and ID.Delivery in (select IOMNo from SAPInvoiceUpload) 
+
+union all
+select oh.IOMNo , oh.IOMDate,oh.PartyCode , oh.PartyName , oh.DSM_ZSM ,oi.ProductName ,oi.Quantity  as OrderQuantity,
+sapupd.Plnt  as FromLocation,0 as Delivery , oh.PartyCode as ToLocation, 0 as STNDeliveryNo,sapupd.BillingDocument as ProInv,sapupd.Description ,0 as ActualQuantity ,ID.InvTransporter as STNTransporter, 
+ID.InvLRNo as STNLRNo,ID.InvDispLRdate ,ID.Date ,ID.Cases ,ID.TentativeDel ,ID.AuthDate ,ID.HORemarks ,SAPUPD.Plnt as INVPlnt,SAPUPD.BillingDocument  as InvoiceNo,
+SAPUPD.BillingDate  as INVDate, SAPUPD.BilledQuantity  as INVQuantity,
+oh.StampingID ,oh.MRP    
+ from OrderHeader  oh,OrderItem  oi, Invoice_Dispatch as ID,DirSAPInvoiceUpload AS SAPUPD
+where ID.IOMNO =SAPUPD.IOMNo and SAPUPD.IOMNo =oh.IOMNo and oh.IOMNo =oi.IOMNo   and oh.IOMNo=12100120 and 
+oi.AlisCode =SAPUPD.AlisCode and  ID.Delivery!=0 and ID.IOMNO in (select IOMNo from DirSAPInvoiceUpload)
+union all
+select oh.IOMNo , oh.IOMDate, oh.PartyCode, oh.PartyName , oh.DSM_ZSM ,oi.ProductName ,oi.Quantity  as OrderQuantity,
+STN.Plnt as FromLocation,STN.Delivery , STN.PartyCode as ToLocation, STN.Delivery as STNDeliveryNo,STN.BillingDocument as ProInv,STN.Description ,STN.DeliveryQuantity as ActualQuantity,ID.InvTransporter as STNTransporter,
+ID.InvLRNo as STNLRNo,ID.InvDispLRdate ,ID.Date ,ID.Cases ,ID.TentativeDel ,ID.AuthDate ,ID.HORemarks ,'' as INVPlnt,SAPUPD.DocumentNumber  as InvoiceNo,
+'' as INVDate, SAPUPD.BilledQuantity  as INVQuantity,
+oh.StampingID ,oh.MRP    
+ from OrderHeader  oh,OrderItem  oi, Invoice_Dispatch as ID,STNUpload AS STN ,IBISBillingUpdate AS SAPUPD
+where oh.IOMNo =oi.IOMNo and oi.IOMNo=STN.IOMNO and oi.AlisCode =STN .AlisCode and STN.IOMNO =ID.IOMNO   and SAPUPD.STNIOMNo =oh.IOMNo 
+AND STN.Delivery =SAPUPD.IOMNo AND STN.AlisCode =SAPUPD.AlisCode AND ID.Delivery!=0  and oh.IOMNo=12100120
+and STN.MaterialCode =SAPUPD.MaterialCode and ID.Delivery = SAPUPD.IOMNo and ID.Delivery in (select IOMNO from IBISBillingUpdate)
+union all
+select oh.IOMNo , oh.IOMDate,oh.PartyCode , oh.PartyName , oh.DSM_ZSM ,oi.ProductName ,oi.Quantity  as OrderQuantity,
+'' as FromLocation,0 as Delivery , oh.PartyCode as ToLocation, 0 as STNDeliveryNo,'' as ProInv,sapupd.ProductName as  Description,0 as ActualQuantity ,ID.InvTransporter as STNTransporter, 
+ID.InvLRNo as STNLRNo,ID.InvDispLRdate ,ID.Date ,ID.Cases ,ID.TentativeDel ,ID.AuthDate ,ID.HORemarks ,'' as INVPlnt,SAPUPD.DocumentNumber  as InvoiceNo,
+'' as INVDate, SAPUPD.BilledQuantity  as INVQuantity,
+oh.StampingID ,oh.MRP    
+ from OrderHeader  oh,OrderItem  oi, Invoice_Dispatch as ID,IBISDirectBillingUpdate AS SAPUPD
+where ID.IOMNO =SAPUPD.IOMNo and SAPUPD.IOMNo =oh.IOMNo and oh.IOMNo =oi.IOMNo  and  oh.IOMNo=12100120 and 
+oi.AlisCode =SAPUPD.AlisCode and  ID.Delivery!=0 and ID.IOMNO in (select IOMNo from IBISDirectBillingUpdate)
+
+
+select * from OrderItem where  IOMNo= 12100120
+
+select * from STNUpload where Delivery=81419116
+select * from IBISBillingUpdate
+select * from Invoice_Dispatch where IOMNO=12100120 
+select * from STNUpload where IOMNO=12100720 
+select * from SAPInvoiceUpload where stnIOMNO=12100720 
+
+select * from Invoice_Dispatch where IOMNO=12100120 and Delivery !=0
+select * from DirSAPInvoiceUpload where IOMNO=12100120 
+select * from STNUpload order by 1 desc
+select * from OrderItem order by 1 desc
+select STNIOMNo, * from IBISBillingUpdate 
+--update IBISBillingUpdate set STNIOMNo=@IOMNO, STNBillingDocument=@BillingDocument where IOMNo = @Delivery
+--select * from OrderItem order by 1 desc
+select distinct IBISBillingUpdate.ID ,STNUpload.IOMNO ,STNUpload.Delivery ,IBISBillingUpdate.BilledQuantity,STNUpload.BillingDocument as STNBilldoc 
+from STNUpload,IBISBillingUpdate where IBISBillingUpdate.IOMNo=STNUpload.Delivery and  IBISBillingUpdate.ordupdated = 0  
+and DATEPART(YYYY, IBISBillingUpdate.LastModify) = DATEPART(YYYY, '2012-11-05 00:00:00.000') 
+and DATEPART(MM, IBISBillingUpdate.LastModify) = DATEPART(MM, '2012-11-05 00:00:00.000') 
+and DATEPART(dd,IBISBillingUpdate.LastModify) = DATEPART(dd, '2012-11-05 00:00:00.000')
+
+
+update IBISBillingUpdate set IBISBillingUpdate.STNIOMNo = STNUpload.IOMNO from IBISBillingUpdate, STNUpload
+where IBISBillingUpdate.IOMNo=STNUpload.Delivery
+
+select STNUpload.IOMNO, IBISBillingUpdate.* from IBISBillingUpdate, STNUpload
+where IBISBillingUpdate.IOMNo=STNUpload.Delivery

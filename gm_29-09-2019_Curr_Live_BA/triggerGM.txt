@@ -1,0 +1,144 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author Name:	<Author Name>
+-- Create Date: <Create Date>
+-- Description:	<Description>
+-- =============================================
+CREATE TRIGGER updModule
+   ON  ModuleMaster
+   AFTER INSERT
+AS 
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+	Declare @Identity int
+	
+	set @Identity = @@Identity
+	
+	if @Identity > 0
+		exec UpdateUserModuleRelation @Identity
+	
+
+END
+GO
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author Name:	<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+-- exec UpdateUserModuleRelation 33
+ALTER PROCEDURE UpdateUserModuleRelation
+	@ModuleID int
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	SET NOCOUNT ON;
+	
+	--Declare @Ids as int
+    Declare @Error int
+    Declare @Message varchar (500)    
+   
+    BEGIN TRY
+        BEGIN TRANSACTION
+        Declare @UserID int
+        DECLARE CursorUpd CURSOR FOR select distinct user_id from UserModuleRelation
+ 
+	
+    OPEN CursorUpd
+    FETCH NEXT FROM CursorUpd INTO @UserID
+    WHILE @@FETCH_STATUS <> -1
+    BEGIN
+   
+	INSERT INTO UserModuleRelation(user_id, module_id, permission, lastModify) VALUES (@UserID, @ModuleID, 0, GETDATE()) 
+   
+   
+    FETCH NEXT FROM CursorUpd INTO @UserID
+    END
+    CLOSE CursorUpd
+    DEALLOCATE CursorUpd    
+        COMMIT TRANSACTION
+    END TRY
+ 
+    BEGIN CATCH   
+        set @Error = @@ERROR
+        ROLLBACK TRANSACTION
+        if @Error = 1205
+        BEGIN
+                set @Message = 'Deadlock recovery attempt.'
+                WAITFOR DELAY '00:00:10'
+        END
+        ELSE
+        BEGIN
+                SET @Message = error_message()
+        END
+    END CATCH
+    ENDPROC:
+    print @Message
+END
+
+
+--------------------------------------------------------------------------------------------
+SELECT * INTO XLImport4 FROM OPENROWSET('Microsoft.Jet.OLEDB.4.0',
+'Excel 12.0;Database=C:\Users\Sunil D\Desktop\convertDate.xlsx', [Sheet1$])
+
+
+SELECT * FROM OPENROWSET(BULK 'C:\Users\Sunil D\Desktop\convertDate.xlsx', [Sheet1$]) as a
+
+select * into SQLServerTable FROM OPENROWSET('Microsoft.Jet.OLEDB.4.0', 'Excel 8.0;Database=C:\Users\Sunil D\Desktop\convertDate.xlsx', 'SELECT * FROM [Sheet1$]')
+
+select * FROM OPENROWSET('Microsoft.Jet.OLEDB.4.0', 'Excel 8.0;Database=C:\Users\Sunil D\Desktop\convertDate.xlsx;HDR=YES'
+, 'SELECT * FROM [Sheet1$]')
+
+
+SELECT * FROM OPENROWSET('Microsoft.Jet.OLEDB.4.0',
+                'Excel 8.0;Database=C:\Users\Sunil D\Desktop\convertDate.xlsx',
+                'SELECT * FROM [Sheet1$]')
+--WHERE [State] = 'FL'
+
+SELECT * FROM OPENROWSET('Microsoft.Jet.OLEDB.4.0',
+'Excel 8.0;Database=C:\Users\Sunil D\Desktop\convertDate.xlsx', [Sheet1$])
+
+select * into SQLServerTable FROM 
+OPENROWSET('Microsoft.Jet.OLEDB.4.0', 'Excel 12.0;Database=F:\stn\stn1.xlsx;HDR=YES', 'SELECT * FROM [Sheet1$]')
+
+SELECT * INTO SQLServerTable FROM 
+OPENROWSET('Microsoft.ACE.OLEDB.12.0','Excel 12.0;Database=F:\stn\stn1.xlsx;IMEX=1','SELECT * FROM [Sheet1$]')
+
+--select * from SQLServerTable
+--sp_configure 'show advanced options', 1;
+--GO
+--RECONFIGURE;
+--GO
+--sp_configure 'Ad Hoc Distributed Queries', 1;
+--GO
+--RECONFIGURE;
+--GO
+select * from ProductMaster
+select * from Invoice_Dispatch order by 1 desc
+
+--1
+select ActualGoodsMovement,MfgDate,ExpDate,* from STNUpload order by 1 desc --frmStnUpload -- ActualGoodsMovement,MfgDate,ExpDate, DeliveryDate(change only Type)
+--2
+select Mfgdate,ExpDate,* from SAPInvoiceUpload order by 1 desc --frmSapInvoiceUpload -- Mfgdate,ExpDate,BillingDate
+--3
+select ZSTK,* from DirSAPInvoiceUpload order by 1 desc --frmSapInvoiecUploadDir -- ZSTK**, BillingDate, Mfgdate, ExpDate
+--4
+select * from IBISDirectBillingUpdate order by 1 desc --IBISDirectBilling -- LR_DT
+--5
+select * from IBISBillingUpdate order by 1 desc --frmIBISBillingThrughSTN -- LR_DT, DocumentDate ChangeOnlyType 
+--6
+select * from StockUpload order by 1 desc --frmStockUpload -- ProductDate,ExpiryDate,LastDayOfMonth(Only Change Type)
+--Change Invoice_Dispatch and STNInvoice_Dispatch datetime datatype to date
+

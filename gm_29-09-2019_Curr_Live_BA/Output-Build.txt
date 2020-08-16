@@ -1,0 +1,279 @@
+------ Build started: Project: gm, Configuration: Release Any CPU ------
+c:\WINDOWS\Microsoft.NET\Framework\v3.5\Csc.exe /noconfig /nowarn:1701,1702 /errorreport:prompt /warn:4 /define:TRACE /reference:bin\Release\Interop.Microsoft.Office.Core.dll /reference:bin\Release\Interop.Microsoft.Office.Interop.Excel.dll /reference:bin\Release\Interop.RoxSKUAboutDlgLib.dll /reference:bin\Release\Interop.VBIDE.dll /reference:"C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll" /reference:"C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Management.Sdk.Sfc.dll" /reference:"C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Smo.dll" /reference:"C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.SmoExtended.dll" /reference:"c:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:"c:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Deployment.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"c:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /reference:C:\WINDOWS\assembly\GAC\ADODB\7.0.3300.0__b03f5f7f11d50a3a\ADODB.dll /reference:C:\WINDOWS\assembly\GAC\stdole\7.0.3300.0__b03f5f7f11d50a3a\stdole.dll /reference:C:\WINDOWS\assembly\GAC\Microsoft.Vbe.Interop\12.0.0.0__71e9bce111e9429c\Microsoft.Vbe.Interop.dll /reference:obj\Release\Interop.MSDDS.dll /reference:obj\Release\Interop.SQLDMO.dll /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\gm.exe /resource:obj\Release\GLENMARK.AboutBoxGlenmark.resources /resource:obj\Release\GlanMark.DeletedOrderDetail.resources /resource:obj\Release\GlanMark.frmCopyOrder.resources /resource:obj\Release\GlanMark.frmDefineReport.resources /resource:obj\Release\GlanMark.frmDeletedOrder.resources /resource:obj\Release\GlanMark.frmIBISBillingThrughSTN.resources /resource:obj\Release\GlanMark.frmInvoiceDetailWithoutProduct.resources /resource:obj\Release\GlanMark.frmLiasoner.resources /resource:obj\Release\GlanMark.frmSQLServerBackup.resources /resource:obj\Release\GlanMark.frmPendingReasons.resources /resource:obj\Release\GlanMark.frmQueryExecuter.resources /resource:obj\Release\GlanMark.frmQueryListing.resources /resource:obj\Release\GlanMark.frmResetOMNO.resources /resource:obj\Release\GlanMark.frmSapInvoiecUploadDir.resources /resource:obj\Release\GlanMark.customermaster.resources /resource:obj\Release\gm.DispatchDetail.resources /resource:obj\Release\GlanMark.EditOrder.resources /resource:obj\Release\GlanMark.frmBatch.resources /resource:obj\Release\GlanMark.frmCategory.resources /resource:obj\Release\GLENMARK.frmCountryMaster.resources /resource:obj\Release\GlanMark.frmCustomerCategory.resources /resource:obj\Release\GlanMark.frmCustomerMaster.resources /resource:obj\Release\GlanMark.frmCustomerType.resources /resource:obj\Release\gm.frmDirSAPInvoice.resources /resource:obj\Release\gm.frmDispatch.resources /resource:obj\Release\GLENMARK.frmDSMZSMMaster.resources /resource:obj\Release\GlanMark.frmIBISBilling.resources /resource:obj\Release\GlanMark.frmInstitutionCategory.resources /resource:obj\Release\GlanMark.frmItemCategory.resources /resource:obj\Release\GlanMark.frmLogicMaster.resources /resource:obj\Release\GlanMark.frmLogin.resources /resource:obj\Release\GlanMark.frmOrder.resources /resource:obj\Release\GlanMark.frmOrderType.resources /resource:obj\Release\GlanMark.frmPDFRead.resources /resource:obj\Release\GlanMark.frmPendingOrder.resources /resource:obj\Release\GlanMark.frmProductMaster.resources /resource:obj\Release\gm.frmQueryGenerator.resources /resource:obj\Release\gm.frmReadyForBilling.resources /resource:obj\Release\GlanMark.frmRequestdoc.resources /resource:obj\Release\GlanMark.frmSapInvoiceUpload.resources /resource:obj\Release\GlanMark.frmStampingMaster.resources /resource:obj\Release\GLENMARK.frmStateMaster.resources /resource:obj\Release\GlanMark.frmlocation.resources /resource:obj\Release\gm.frmSTNDispatch.resources /resource:obj\Release\GlenMark.frmStnUpload.resources /resource:obj\Release\GlenMark.frmStockUpload.resources /resource:obj\Release\GlanMark.frmTaxMaster.resources /resource:obj\Release\GlanMark.frmTaxTypeMaster.resources /resource:obj\Release\GlanMark.frmUserMaster.resources /resource:obj\Release\gm.frmUserModuleMaster.resources /resource:obj\Release\GlanMark.frmUserPermission.resources /resource:obj\Release\GlanMark.frmZoneMaster.resources /resource:obj\Release\GlanMark.IBISDirectBilling.resources /resource:obj\Release\GlanMark.MdiForm.resources /resource:obj\Release\GlanMark.Order.resources /resource:obj\Release\GlanMark.Orderdetail.resources /resource:obj\Release\GlanMark.order_authrosisation.resources /resource:obj\Release\gm.Properties.Resources.resources /resource:obj\Release\GLENMARK.frmSubInstitutionCategory.resources /target:winexe AboutBox.cs AboutBox.designer.cs App_Code\BLL\ArtistMasterClass.cs App_Code\BLL\CategoryMasterClass.cs App_Code\BLL\CustomerMasterClass.cs App_Code\BLL\DOC_REQ_MasterClass.cs App_Code\BLL\DSM_ZSMClass.cs App_Code\BLL\InstitutionMasterClass.cs App_Code\BLL\LocationMasterClass.cs App_Code\BLL\OrderHeaderClass.cs App_Code\BLL\ProductMasterClass.cs App_Code\BLL\StockMasterClass.cs App_Code\BLL\SubInstitutionMasterClass.cs App_Code\DAL\DBArtistMasterClass.cs App_Code\DAL\DBCategoryMasterClass.cs App_Code\DAL\DBCustomerMasterClass.cs App_Code\DAL\DBDOC_REQ_MasterClass.cs App_Code\DAL\DBDSM_ZSMClass.cs App_Code\DAL\DBInstitutionMasterClass.cs App_Code\DAL\DBLocationMasterClass.cs App_Code\DAL\DBOrderHeaderClass.cs App_Code\DAL\DBProductMasterClass.cs App_Code\DAL\DBStockMasterClass.cs App_Code\DAL\DBSubInstitutionMasterClass.cs App_Code\Other\CalenderCOntrol.cs App_Code\Other\cls_common.cs App_Code\Other\Common.cs App_Code\Other\CommonFunction.cs App_Code\Other\ConversionAttribute.cs App_Code\Other\DataTableConverter.cs App_Code\Other\DBSessionUser.cs App_Code\Other\Encryption.cs App_Code\Other\ErrorLogClass.cs App_Code\Other\IDataTableConverter.cs App_Code\Other\Result.cs App_Code\Other\ResultClass.cs App_Code\Other\wwList.cs DeletedOrderDetail.cs DeletedOrderDetail.designer.cs frmCopyOrder.cs frmCopyOrder.Designer.cs frmDefineReport.cs frmDefineReport.Designer.cs frmDeletedOrder.cs frmDeletedOrder.designer.cs frmDispatchDetail.cs frmDispatchDetail.Designer.cs frmIBISBillingThrughSTN.cs frmIBISBillingThrughSTN.Designer.cs frmInvoiceDetailWithoutProduct.cs frmInvoiceDetailWithoutProduct.Designer.cs frmLiasoner.cs frmLiasoner.designer.cs frmMain.cs frmMain.Designer.cs frmPendingReasons.cs frmPendingReasons.Designer.cs frmQueryExecuter.cs frmQueryExecuter.designer.cs frmQueryListing.cs frmQueryListing.Designer.cs frmResetOMNO.cs frmResetOMNO.Designer.cs frmSapInvoiecUploadDir.cs frmSapInvoiecUploadDir.Designer.cs CustomerDetail.cs CustomerDetail.Designer.cs CustomerRecords.cs CustomerRecords.designer.cs DispatchDetail.cs DispatchDetail.Designer.cs EditOrder.cs EditOrder.Designer.cs frmBatch.cs frmBatch.Designer.cs frmCategory.cs frmCategory.designer.cs frmCountryMaster.cs frmCountryMaster.Designer.cs frmCustomerCategory.cs frmCustomerCategory.designer.cs frmCustomerMaster.cs frmCustomerMaster.Designer.cs frmCustomerType.cs frmCustomerType.designer.cs frmDirSAPInvoice.cs frmDirSAPInvoice.Designer.cs frmDispatch.cs frmDispatch.Designer.cs frmDSMZSMMaster.cs frmDSMZSMMaster.Designer.cs frmIBISBilling.cs frmIBISBilling.Designer.cs frmInstitutionCategory.cs frmInstitutionCategory.designer.cs frmItemCategory.cs frmItemCategory.Designer.cs frmLogicMaster.cs frmLogicMaster.Designer.cs frmLogin.cs frmLogin.Designer.cs frmOrder.cs frmOrder.Designer.cs frmOrderType.cs frmOrderType.Designer.cs frmPDFRead.cs frmPDFRead.Designer.cs frmPendingOrder.cs frmPendingOrder.Designer.cs frmProductMaster.cs frmProductMaster.Designer.cs frmQueryGenerator.cs frmQueryGenerator.Designer.cs frmReadyForBilling.cs frmReadyForBilling.Designer.cs frmRequestdocMaster.cs frmRequestdocMaster.Designer.cs frmSapInvoiceUpload.cs frmSapInvoiceUpload.Designer.cs frmStampingMaster.cs frmStampingMaster.Designer.cs frmStateMaster.cs frmStateMaster.Designer.cs frmlocation.cs frmlocation.designer.cs frmSTNDispatch.cs frmSTNDispatch.Designer.cs frmStnUpload.cs frmStnUpload.Designer.cs frmStockUpload.cs frmStockUpload.designer.cs frmTaxMaster.cs frmTaxMaster.designer.cs frmTaxTypeMaster.cs frmTaxTypeMaster.Designer.cs frmUserMaster.cs frmUserMaster.Designer.cs frmUserModuleMaster.cs frmUserModuleMaster.Designer.cs frmUserPermission.cs frmUserPermission.Designer.cs frmZoneMaster.cs frmZoneMaster.Designer.cs IBISDirectBilling.cs IBISDirectBilling.Designer.cs MdiForm.cs MdiForm.designer.cs order.cs order.designer.cs Orderdetail.cs Orderdetail.Designer.cs order_authrosisation.cs order_authrosisation.designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs frmSubInstitutionCategory.cs frmSubInstitutionCategory.designer.cs
+D:\GlenMark Application\gm_15-12-2012\frmIBISBilling.cs(36,16): warning CS0108: 'GlanMark.frmIBISBilling.ProductName' hides inherited member 'System.Windows.Forms.Control.ProductName'. Use the new keyword if hiding was intended.
+c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll: (Related file)
+D:\GlenMark Application\gm_15-12-2012\frmIBISBilling.cs(41,16): warning CS0108: 'GlanMark.frmIBISBilling.Location' hides inherited member 'System.Windows.Forms.Form.Location'. Use the new keyword if hiding was intended.
+c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll: (Related file)
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiecUploadDir.cs(38,16): warning CS0108: 'GlanMark.frmSapInvoiecUploadDir.Name' hides inherited member 'System.Windows.Forms.Control.Name'. Use the new keyword if hiding was intended.
+c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll: (Related file)
+D:\GlenMark Application\gm_15-12-2012\frmIBISBillingThrughSTN.cs(39,16): warning CS0108: 'GlanMark.frmIBISBillingThrughSTN.ProductName' hides inherited member 'System.Windows.Forms.Control.ProductName'. Use the new keyword if hiding was intended.
+c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll: (Related file)
+D:\GlenMark Application\gm_15-12-2012\frmIBISBillingThrughSTN.cs(44,16): warning CS0108: 'GlanMark.frmIBISBillingThrughSTN.Location' hides inherited member 'System.Windows.Forms.Form.Location'. Use the new keyword if hiding was intended.
+c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll: (Related file)
+D:\GlenMark Application\gm_15-12-2012\IBISDirectBilling.cs(38,16): warning CS0108: 'GlanMark.IBISDirectBilling.ProductName' hides inherited member 'System.Windows.Forms.Control.ProductName'. Use the new keyword if hiding was intended.
+c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll: (Related file)
+D:\GlenMark Application\gm_15-12-2012\IBISDirectBilling.cs(43,16): warning CS0108: 'GlanMark.IBISDirectBilling.Location' hides inherited member 'System.Windows.Forms.Form.Location'. Use the new keyword if hiding was intended.
+c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll: (Related file)
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiceUpload.cs(38,16): warning CS0108: 'GlanMark.frmSapInvoiceUpload.Name' hides inherited member 'System.Windows.Forms.Control.Name'. Use the new keyword if hiding was intended.
+c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll: (Related file)
+D:\GlenMark Application\gm_15-12-2012\frmSubInstitutionCategory.cs(142,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmUserMaster.cs(125,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmUserMaster.cs(455,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmUserMaster.cs(508,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmSTNDispatch.cs(142,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmSTNDispatch.cs(238,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmSTNDispatch.cs(284,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmSTNDispatch.cs(879,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmSTNDispatch.cs(932,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmInstitutionCategory.cs(151,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\EditOrder.cs(914,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\EditOrder.cs(955,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\EditOrder.cs(1131,30): warning CS0168: The variable 'ee' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\EditOrder.cs(1520,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\EditOrder.cs(1530,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\EditOrder.cs(1540,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(92,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(117,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(142,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(169,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(194,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(221,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(246,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(271,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(298,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(323,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(348,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(375,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(400,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(427,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(452,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(477,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(632,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(990,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmPendingReasons.cs(97,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmZoneMaster.cs(150,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmUserPermission.cs(50,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmUserPermission.cs(113,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmUserPermission.cs(127,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmUserPermission.cs(148,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmTaxMaster.cs(147,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmStockUpload.cs(75,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmStockUpload.cs(293,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmStockUpload.cs(333,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmStockUpload.cs(357,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmStockUpload.cs(431,30): warning CS0168: The variable 'ee' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmStnUpload.cs(576,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmStnUpload.cs(664,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmStnUpload.cs(878,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmIBISBilling.cs(125,29): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmIBISBilling.cs(406,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmIBISBilling.cs(497,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmCountryMaster.cs(94,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDeletedOrder.cs(142,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\Other\CommonFunction.cs(122,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\Other\CommonFunction.cs(159,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\Other\CommonFunction.cs(190,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\Other\CommonFunction.cs(222,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\Other\CommonFunction.cs(259,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\Other\CommonFunction.cs(291,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\Other\CommonFunction.cs(318,29): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\Other\CommonFunction.cs(340,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\Other\CommonFunction.cs(379,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\Other\CommonFunction.cs(468,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\Orderdetail.cs(187,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\Orderdetail.cs(209,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\Orderdetail.cs(234,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\Orderdetail.cs(255,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\Orderdetail.cs(299,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmOrderType.cs(148,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(57,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(79,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(101,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(151,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(178,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(200,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(222,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(244,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(266,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(288,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(325,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(347,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(369,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(391,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(413,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmCustomerMaster.cs(365,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmCustomerMaster.cs(500,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmCustomerMaster.cs(458,21): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?'
+D:\GlenMark Application\gm_15-12-2012\frmCustomerMaster.cs(758,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmCustomerMaster.cs(773,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmCustomerMaster.cs(802,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\DeletedOrderDetail.cs(153,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\DeletedOrderDetail.cs(175,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\DeletedOrderDetail.cs(201,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\DeletedOrderDetail.cs(222,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmUserModuleMaster.cs(98,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmLogicMaster.cs(175,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmLogicMaster.cs(367,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmLogicMaster.cs(377,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmLogicMaster.cs(387,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDSMZSMMaster.cs(94,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiecUploadDir.cs(434,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiecUploadDir.cs(527,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiecUploadDir.cs(882,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmLiasoner.cs(97,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmStampingMaster.cs(150,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmCustomerCategory.cs(147,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\CustomerRecords.cs(169,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryListing.cs(96,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmIBISBillingThrughSTN.cs(127,29): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmIBISBillingThrughSTN.cs(501,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmIBISBillingThrughSTN.cs(592,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmIBISBillingThrughSTN.cs(806,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmTaxTypeMaster.cs(144,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmProductMaster.cs(209,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmProductMaster.cs(507,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmProductMaster.cs(589,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmProductMaster.cs(619,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmItemCategory.cs(144,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\IBISDirectBilling.cs(128,29): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\IBISDirectBilling.cs(493,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\IBISDirectBilling.cs(584,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\IBISDirectBilling.cs(795,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmCategory.cs(98,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmCategory.cs(351,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmBatch.cs(135,21): warning CS0219: The variable 'flag' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiceUpload.cs(409,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiceUpload.cs(502,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiceUpload.cs(845,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmInvoiceDetailWithoutProduct.cs(55,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmInvoiceDetailWithoutProduct.cs(67,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmInvoiceDetailWithoutProduct.cs(87,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryGenerator.cs(63,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryGenerator.cs(79,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryGenerator.cs(95,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryGenerator.cs(111,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryGenerator.cs(143,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryGenerator.cs(159,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryGenerator.cs(376,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmOrder.cs(69,27): warning CS1690: Accessing a member on 'GlanMark.MdiForm.dtCurrent' may cause a runtime exception because it is a field of a marshal-by-reference class
+D:\GlenMark Application\gm_15-12-2012\MdiForm.designer.cs(3,19): (Related location)
+D:\GlenMark Application\gm_15-12-2012\MdiForm.cs(20,26): (Related location)
+D:\GlenMark Application\gm_15-12-2012\frmOrder.cs(70,32): warning CS1690: Accessing a member on 'GlanMark.MdiForm.dtCurrent' may cause a runtime exception because it is a field of a marshal-by-reference class
+D:\GlenMark Application\gm_15-12-2012\MdiForm.designer.cs(3,19): (Related location)
+D:\GlenMark Application\gm_15-12-2012\MdiForm.cs(20,26): (Related location)
+D:\GlenMark Application\gm_15-12-2012\frmOrder.cs(71,26): warning CS1690: Accessing a member on 'GlanMark.MdiForm.dtCurrent' may cause a runtime exception because it is a field of a marshal-by-reference class
+D:\GlenMark Application\gm_15-12-2012\MdiForm.designer.cs(3,19): (Related location)
+D:\GlenMark Application\gm_15-12-2012\MdiForm.cs(20,26): (Related location)
+D:\GlenMark Application\gm_15-12-2012\frmOrder.cs(72,32): warning CS1690: Accessing a member on 'GlanMark.MdiForm.dtCurrent' may cause a runtime exception because it is a field of a marshal-by-reference class
+D:\GlenMark Application\gm_15-12-2012\MdiForm.designer.cs(3,19): (Related location)
+D:\GlenMark Application\gm_15-12-2012\MdiForm.cs(20,26): (Related location)
+D:\GlenMark Application\gm_15-12-2012\frmOrder.cs(203,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmOrder.cs(828,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmOrder.cs(854,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmOrder.cs(1673,37): warning CS0472: The result of the expression is always 'true' since a value of type 'int' is never equal to 'null' of type 'int?'
+D:\GlenMark Application\gm_15-12-2012\frmOrder.cs(1970,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmOrder.cs(1980,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmOrder.cs(1990,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmOrder.cs(2221,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDispatch.cs(322,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDispatch.cs(423,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDispatch.cs(469,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDispatch.cs(1140,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmDispatch.cs(1193,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmCustomerType.cs(150,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\EditOrder.cs(2038,26): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmRequestdocMaster.cs(149,30): warning CS0168: The variable 'ex' is declared but never used
+D:\GlenMark Application\gm_15-12-2012\frmUserMaster.cs(27,21): warning CS0414: The field 'GlanMark.frmUserMaster.UserId' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmSTNDispatch.cs(29,21): warning CS0414: The field 'gm.frmSTNDispatch.flag' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\EditOrder.cs(21,31): warning CS0414: The field 'GlanMark.EditOrder.objConnection' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(32,21): warning CS0169: The field 'GlanMark.frmQueryExecuter.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(33,21): warning CS0414: The field 'GlanMark.frmQueryExecuter.UserId' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(36,21): warning CS0414: The field 'GlanMark.frmQueryExecuter.mintTotalRecords' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(37,21): warning CS0414: The field 'GlanMark.frmQueryExecuter.mintPageSize' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(38,21): warning CS0414: The field 'GlanMark.frmQueryExecuter.mintPageCount' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryExecuter.cs(39,21): warning CS0414: The field 'GlanMark.frmQueryExecuter.mintCurrentPage' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\DAL\DBCustomerMasterClass.cs(19,24): warning CS0414: The field 'ww_admin.DBCustomerMasterClass._strDateFormat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmStockUpload.cs(22,31): warning CS0414: The field 'GlenMark.frmStockUpload.objReader' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmStockUpload.cs(31,21): warning CS0169: The field 'GlenMark.frmStockUpload.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmStockUpload.cs(34,18): warning CS0169: The field 'GlenMark.frmStockUpload.StockUpdate' is never used
+D:\GlenMark Application\gm_15-12-2012\frmStockUpload.cs(35,13): warning CS0414: The field 'GlenMark.frmStockUpload.ID' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmStockUpload.cs(51,18): warning CS0169: The field 'GlenMark.frmStockUpload.LastModify' is never used
+D:\GlenMark Application\gm_15-12-2012\frmStnUpload.cs(25,31): warning CS0414: The field 'GlenMark.frmStnUpload.objReader' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmStnUpload.cs(34,21): warning CS0169: The field 'GlenMark.frmStnUpload.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmStnUpload.cs(37,13): warning CS0414: The field 'GlenMark.frmStnUpload.ID' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmStnUpload.cs(65,18): warning CS0169: The field 'GlenMark.frmStnUpload.LastModify' is never used
+D:\GlenMark Application\gm_15-12-2012\frmReadyForBilling.cs(19,16): warning CS0414: The field 'gm.frmReadyForBilling.strLogFileName' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmReadyForBilling.cs(20,24): warning CS0414: The field 'gm.frmReadyForBilling._strDateFormat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmReadyForBilling.cs(27,21): warning CS0169: The field 'gm.frmReadyForBilling.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmIBISBilling.cs(24,31): warning CS0414: The field 'GlanMark.frmIBISBilling.objReader' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmIBISBilling.cs(59,21): warning CS0169: The field 'GlanMark.frmIBISBilling.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmDeletedOrder.cs(29,21): warning CS0169: The field 'GlanMark.frmDeletedOrder.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmDeletedOrder.cs(32,24): warning CS0414: The field 'GlanMark.frmDeletedOrder._dateformat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\Other\DBSessionUser.cs(13,16): warning CS0414: The field 'ww_lib.DBSessionUser.strLogFileName' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\Other\CommonFunction.cs(20,24): warning CS0414: The field 'ww_lib.CommonFunction.selectQueryString' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\Other\CommonFunction.cs(31,23): warning CS0414: The field 'ww_lib.CommonFunction.strLogFileName' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\DAL\DBDOC_REQ_MasterClass.cs(19,24): warning CS0414: The field 'ww_admin.DBDOC_REQ_MasterClass._strDateFormat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\Orderdetail.cs(20,31): warning CS0414: The field 'GlanMark.Orderdetail.objConnection' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmResetOMNO.cs(29,21): warning CS0169: The field 'GlanMark.frmResetOMNO.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmResetOMNO.cs(32,24): warning CS0414: The field 'GlanMark.frmResetOMNO._dateformat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(19,16): warning CS0414: The field 'GlanMark.frmDefineReport.strLogFileName' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(24,27): warning CS0414: The field 'GlanMark.frmDefineReport.dataTable' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(27,21): warning CS0169: The field 'GlanMark.frmDefineReport.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(28,21): warning CS0414: The field 'GlanMark.frmDefineReport.UserId' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(31,21): warning CS0414: The field 'GlanMark.frmDefineReport.mintTotalRecords' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(32,21): warning CS0414: The field 'GlanMark.frmDefineReport.mintPageSize' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(33,21): warning CS0414: The field 'GlanMark.frmDefineReport.mintPageCount' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmDefineReport.cs(34,21): warning CS0414: The field 'GlanMark.frmDefineReport.mintCurrentPage' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\MdiForm.cs(25,21): warning CS0414: The field 'GlanMark.MdiForm.childFormNumber' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\DeletedOrderDetail.cs(20,31): warning CS0414: The field 'GlanMark.DeletedOrderDetail.objConnection' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\DeletedOrderDetail.cs(25,24): warning CS0414: The field 'GlanMark.DeletedOrderDetail._dateformat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\DeletedOrderDetail.cs(26,16): warning CS0414: The field 'GlanMark.DeletedOrderDetail.strLogFileName' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiecUploadDir.cs(26,31): warning CS0414: The field 'GlanMark.frmSapInvoiecUploadDir.objReader' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiecUploadDir.cs(31,13): warning CS0414: The field 'GlanMark.frmSapInvoiecUploadDir.ID' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiecUploadDir.cs(71,21): warning CS0169: The field 'GlanMark.frmSapInvoiecUploadDir.id' is never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\DAL\DBInstitutionMasterClass.cs(19,24): warning CS0414: The field 'ww_admin.DBInstitutionMasterClass._strDateFormat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmLogin.cs(23,21): warning CS0169: The field 'GlanMark.frmLogin.ID' is never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryListing.cs(27,21): warning CS0414: The field 'GlanMark.frmQueryListing.UserId' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmIBISBillingThrughSTN.cs(27,31): warning CS0414: The field 'GlanMark.frmIBISBillingThrughSTN.objReader' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmIBISBillingThrughSTN.cs(63,21): warning CS0169: The field 'GlanMark.frmIBISBillingThrughSTN.id' is never used
+D:\GlenMark Application\gm_15-12-2012\DispatchDetail.cs(20,24): warning CS0414: The field 'gm.DispatchDetail._strDateFormat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\DispatchDetail.cs(27,21): warning CS0169: The field 'gm.DispatchDetail.id' is never used
+D:\GlenMark Application\gm_15-12-2012\DispatchDetail.cs(28,21): warning CS0414: The field 'gm.DispatchDetail.flag' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\IBISDirectBilling.cs(26,31): warning CS0414: The field 'GlanMark.IBISDirectBilling.objReader' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\IBISDirectBilling.cs(62,21): warning CS0169: The field 'GlanMark.IBISDirectBilling.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmBatch.cs(21,32): warning CS0414: The field 'GlanMark.frmBatch.sqlDataAdapter' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmBatch.cs(23,27): warning CS0414: The field 'GlanMark.frmBatch.dataTable' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmCopyOrder.cs(21,31): warning CS0414: The field 'GlanMark.frmCopyOrder.objConnection' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmCopyOrder.cs(29,21): warning CS0169: The field 'GlanMark.frmCopyOrder.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmCopyOrder.cs(32,24): warning CS0414: The field 'GlanMark.frmCopyOrder._dateformat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\DAL\DBArtistMasterClass.cs(26,24): warning CS0414: The field 'ww_admin.DBArtistMasterClass._strDateFormat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiceUpload.cs(26,31): warning CS0414: The field 'GlanMark.frmSapInvoiceUpload.objReader' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiceUpload.cs(31,13): warning CS0414: The field 'GlanMark.frmSapInvoiceUpload.ID' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmSapInvoiceUpload.cs(71,21): warning CS0169: The field 'GlanMark.frmSapInvoiceUpload.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmInvoiceDetailWithoutProduct.cs(19,16): warning CS0414: The field 'GlanMark.frmInvoiceDetailWithoutProduct.strLogFileName' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmInvoiceDetailWithoutProduct.cs(24,27): warning CS0414: The field 'GlanMark.frmInvoiceDetailWithoutProduct.dataTable' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmInvoiceDetailWithoutProduct.cs(27,21): warning CS0169: The field 'GlanMark.frmInvoiceDetailWithoutProduct.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmInvoiceDetailWithoutProduct.cs(28,21): warning CS0414: The field 'GlanMark.frmInvoiceDetailWithoutProduct.UserId' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\CustomerDetail.cs(19,24): warning CS0414: The field 'GlanMark.CustomerDetail.objC' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\CustomerDetail.cs(20,31): warning CS0414: The field 'GlanMark.CustomerDetail.objConnection' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\CustomerDetail.cs(21,32): warning CS0414: The field 'GlanMark.CustomerDetail.sqlDataAdapter' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\CustomerDetail.cs(22,27): warning CS0414: The field 'GlanMark.CustomerDetail.dataTable' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\CustomerDetail.cs(23,31): warning CS0414: The field 'GlanMark.CustomerDetail.bindingSource' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryGenerator.cs(22,24): warning CS0414: The field 'gm.frmQueryGenerator.objC' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmQueryGenerator.cs(23,32): warning CS0414: The field 'gm.frmQueryGenerator.sqlDataAdapter' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmOrder.cs(29,21): warning CS0169: The field 'GlanMark.frmOrder.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmDispatch.cs(28,21): warning CS0169: The field 'gm.frmDispatch.id' is never used
+D:\GlenMark Application\gm_15-12-2012\frmDispatch.cs(30,21): warning CS0414: The field 'gm.frmDispatch.flag' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmPendingOrder.cs(21,31): warning CS0414: The field 'GlanMark.frmPendingOrder.objConnection' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmPendingOrder.cs(22,32): warning CS0414: The field 'GlanMark.frmPendingOrder.sqlDataAdapter' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmPendingOrder.cs(24,27): warning CS0414: The field 'GlanMark.frmPendingOrder.dataTable' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\frmPendingOrder.cs(29,21): warning CS0169: The field 'GlanMark.frmPendingOrder.id' is never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\DAL\DBCategoryMasterClass.cs(19,24): warning CS0414: The field 'ww_admin.DBCategoryMasterClass._strDateFormat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\DAL\DBProductMasterClass.cs(19,24): warning CS0414: The field 'ww_admin.DBProductMasterClass._strDateFormat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\DAL\DBSubInstitutionMasterClass.cs(19,24): warning CS0414: The field 'ww_admin.DBSubInstitutionMasterClass._strDateFormat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\DAL\DBLocationMasterClass.cs(19,24): warning CS0414: The field 'ww_admin.DBLocationMasterClass._strDateFormat' is assigned but its value is never used
+D:\GlenMark Application\gm_15-12-2012\App_Code\DAL\DBDSM_ZSMClass.cs(19,24): warning CS0414: The field 'ww_admin.DBDSM_ZSMClass._strDateFormat' is assigned but its value is never used
+
+Compile complete -- 0 errors, 257 warnings
+gm -> D:\GlenMark Application\gm_15-12-2012\bin\Release\gm.exe
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========

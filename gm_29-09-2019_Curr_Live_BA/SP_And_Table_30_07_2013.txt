@@ -1,0 +1,61 @@
+USE [gm]
+GO
+/****** Object:  StoredProcedure [dbo].[SPInsertIfNotExist]    Script Date: 07/30/2013 15:30:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author Name:	<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+ALTER PROCEDURE [dbo].[SPInsertIfNotExist] 
+	-- Add the parameters for the stored procedure here
+	@MacId varchar(500)
+AS
+BEGIN
+	SET NOCOUNT ON;
+	--select * from MacDetail
+    if not exists(select * from MacDetail where MacId = @MacId)
+    begin
+		insert into MacDetail values (@MacId, GETDATE())
+	end
+END
+
+------------------------------------------------------------------------------------
+
+USE [gm]
+GO
+
+/****** Object:  Table [dbo].[MacDetail]    Script Date: 07/30/2013 15:29:54 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[MacDetail](
+	[ID] [numeric](18, 0) IDENTITY(1,1) NOT NULL,
+	[MacId] [varchar](500) NULL,
+	[LastModify] [datetime] NULL,
+ CONSTRAINT [PK_MacDetail] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[MacDetail] ADD  CONSTRAINT [DF_MacDetail_LastModify]  DEFAULT (getdate()) FOR [LastModify]
+GO
+
+
+
+
